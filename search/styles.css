@@ -1,0 +1,160 @@
+.center{
+    display: block;
+    box-sizing: border-box;
+    max-height: 160px;
+    padding: 20px;  
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    height: 100%
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    height: 60px;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    
+}
+
+a {
+    padding-left: 15px;
+    color:black;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
+.navitem {
+    position: relative;
+    left: 85%;
+}
+
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+
+input[type=text1] {
+    width: 600px;
+    position: relative;
+    left: 30%;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    
+  }
+
+input[type=text] {
+    width: 600px; 
+    padding-bottom:0px;
+    position: absolute; 
+    left:260px;
+    border: 1px solid lightgray;
+  }
+
+.search_button{
+    position:relative;
+    left:450px;
+    background-color:cornflowerblue;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    
+}
+
+.search_button:hover {
+    background-color: dodgerblue;
+}
+
+ /* code copied from google source code. From line 78 - 120 */ 
+.LS8OJ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.yr19Zb {
+    min-height: 92px;
+}
+
+.LLD4me {
+    min-height: 150px;
+    max-height: 290px;
+    height: calc(100% - 560px);
+}
+
+.o3j99 {
+    flex-shrink: 0;
+    box-sizing: border-box;
+}
+
+.rSk4se {
+    max-height: 92px;
+    position: relative;
+}
+
+.k1zIA {
+    height: 100%;
+    margin-top: auto;
+}
+
+.lnXdpd {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+img[Attributes] {
+    height: 92px;
+    aspect-ratio: auto 272 / 92;
+    width: 272px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button4 {
+    
+    background-color: ghostwhite;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    left: 40%;
+    border-radius: 5px;
+    color: black;
+    
+  }
+
+  .button4:hover {border: 2px solid #e7e7e7;}
+
+  .content1{
+      padding-left: 40px;
+      display: grid;
+      grid-template-columns: 15% 42% 43%;
+  }
+
+  .psub{
+    font-size: 12px;
+  }
+
+
+  
